@@ -1,0 +1,13 @@
+[package]
+name = "clickonce"
+version = "0.0.1"
+edition = "2018"
+authors = ["Max Dymond <maxmakesmagic@gmail.com>"]
+description = "A library for parsing ClickOnce applications"
+license = "MIT"
+repository = "https://github.com/maxmakesmagic/clickonce"
+rust-version = "1.56"
+keywords = []
+categories = []
+
+[dependencies]

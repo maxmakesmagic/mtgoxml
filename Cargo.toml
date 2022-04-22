@@ -1,13 +1,6 @@
-[package]
-name = "mtgoxml"
-version = "0.1.0"
-edition = "2018"
-authors = ["Max Dymond <maxmakesmagic@gmail.com>"]
-description = "Tool to download and format the XML data files from Magic: the Gathering Online"
-license = "MIT"
-repository = "https://github.com/maxmakesmagic/mtgoxml"
-rust-version = "1.56"
-keywords = []
-categories = []
+[workspace]
 
-[dependencies]
+members = [
+    "mtgoxml",
+    "clickonce"
+]
