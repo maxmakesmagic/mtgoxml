@@ -1,6 +1,6 @@
 [package]
 name = "mtgoxml"
-version = "0.0.1"
+version = "0.0.2"
 edition = "2018"
 authors = ["Max Dymond <maxmakesmagic@gmail.com>"]
 description = "Tool to download and format the XML data files from Magic: the Gathering Online"
@@ -19,4 +19,4 @@ serde = { version = "1.0.136", features = ["derive"] }
 serde-xml-rs = "0.5.1"
 tokio = { version = "1.17.0", features = ["macros", "rt-multi-thread"] }
 
-clickonce = { version = "0.0.1", path = "../clickonce" }
+clickonce = { version = "0.0.2", path = "../clickonce" }

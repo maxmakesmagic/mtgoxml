@@ -1,6 +1,6 @@
 [package]
 name = "clickonce"
-version = "0.0.1"
+version = "0.0.2"
 edition = "2018"
 authors = ["Max Dymond <maxmakesmagic@gmail.com>"]
 description = "A library for parsing ClickOnce applications"
