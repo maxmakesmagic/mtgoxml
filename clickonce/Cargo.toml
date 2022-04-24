@@ -5,9 +5,11 @@ edition = "2018"
 authors = ["Max Dymond <maxmakesmagic@gmail.com>"]
 description = "A library for parsing ClickOnce applications"
 license = "MIT"
-repository = "https://github.com/maxmakesmagic/clickonce"
+repository = "https://github.com/maxmakesmagic/mtgoxml"
 rust-version = "1.56"
 keywords = []
 categories = []
 
 [dependencies]
+serde = { version = "1.0.136", features = ["derive"] }
+serde-xml-rs = "0.5.1"

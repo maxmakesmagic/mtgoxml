@@ -20,3 +20,4 @@ serde-xml-rs = "0.5.1"
 tokio = { version = "1.17.0", features = ["macros", "rt-multi-thread"] }
 
 clickonce = { version = "0.0.2", path = "../clickonce" }
+thiserror = "1.0.30"
