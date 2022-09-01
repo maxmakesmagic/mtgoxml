@@ -16,7 +16,7 @@ env_logger = "0.9.0"
 log = "0.4.16"
 reqwest = "0.11.10"
 serde = { version = "1.0.136", features = ["derive"] }
-serde-xml-rs = "0.5.1"
+serde-xml-rs = "0.6.0"
 tokio = { version = "1.17.0", features = ["macros", "rt-multi-thread"] }
 
 clickonce = { version = "0.0.3", path = "../clickonce" }
