@@ -12,4 +12,4 @@ categories = []
 
 [dependencies]
 serde = { version = "1.0.136", features = ["derive"] }
-serde-xml-rs = "0.5.1"
+serde-xml-rs = "0.6.0"
