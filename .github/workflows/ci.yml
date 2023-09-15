@@ -116,7 +116,7 @@ jobs:
         with:
           command: tarpaulin
           args: --out xml
-      - uses: codecov/codecov-action@v3
+      - uses: codecov/codecov-action@v4
         with:
           token: ${{ secrets.CODECOV_TOKEN }}
           files: ./cobertura.xml
